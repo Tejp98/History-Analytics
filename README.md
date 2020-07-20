@@ -1,5 +1,5 @@
 # Fun Little Projects :
-This repository included various small projects. Decription about each project is given below.
+This repository included various small projects. Description about each project is given below.
 
 
 ## 1. Number of Google Searches:
