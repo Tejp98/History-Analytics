@@ -14,9 +14,9 @@ for x in soup.find_all('div', class_ = 'content-cell mdl-cell mdl-cell--6-col md
 	
 	if(x.text.split()[0] == "Visited"):
 		visited += 1
-	else:
+	elif x.text.split()[0] == "Searched":
 		searched += 1
-
+	
 
 length = len(soup.find_all('div', class_ = 'content-cell mdl-cell mdl-cell--6-col mdl-typography--body-1'))
 
